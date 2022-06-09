@@ -33,6 +33,9 @@
     },
     {
         "url":"https://github.com/stevo550/buildpack-slug-cleaner"
+    },
+    {
+        "url":https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/python.tgz"
     }
     ]
 }
