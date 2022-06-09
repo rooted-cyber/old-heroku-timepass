@@ -1,41 +1,29 @@
 {
-    "name": "Der bot",
-    "description": "Hapere",
-    "logo": "",
+    "name": "Ultroid UserBot in github action",
+    "description": "Pluggable telegram userbot, made in python using Telethon.",
+    "logo": "https://telegra.ph/file/8fd3bb89b9fb46867e7c9.jpg",
     "keywords": [
-        "gehehsh"
+        "Telethon",
+        "telegram",
+        "userbot",
+        "python",
+        "ultroid"
     ],
-    "repository": "https://var.com/",
-    "success_url": "https://combat",
-    "stack": "heroku-20",
+    "repository": "https://github.com/rooted-cyber/github-action-bot",
+    "website": "https://ultroid.tech",
+    "success_url": "https://t.me/TheUltroid",
+    "stack": "container",
     "env": {
-        "BOT_NAME": {
-            "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
-            "value": "hi",
-            "required":  true
+        "ENTER_NAME": {
+            "description": "Name of your",
+            "value": "Maruf",
+            "required": false
         }
     },
     "formation": {
-      "worker": {
+        "ultroid": {
             "quantity": 1,
             "size": "free"
         }
-    },
-    "buildpacks": [
-    {
-        "url":"heroku/python"
-    },
-    {
-        "url":"heroku-community/apt"
-    },
-    {
-        "url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-        "url":"https://github.com/stevo550/buildpack-slug-cleaner"
-    },
-    {
-        "url":https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/python.tgz"
     }
-    ]
 }
